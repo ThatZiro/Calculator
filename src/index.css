@@ -1,0 +1,19 @@
+:root {
+  --background: #FFFAEC;
+  --content: #F1F1F1;
+  --text: #111111;
+  --accent: #EDB9D1;
+  --highlight: #995FC9;
+
+  /*--background: #040301;*/
+  /*--content: #110f0e;*/
+  /*--text: #fcfbf9;*/
+  /*--accent: #dc33b0;*/
+  /*--highlight: #00c560;*/
+
+  /*--background: #fdf8eb;*/
+  /*--content: #f2ece0;*/
+  /*--text: #110f0e;*/
+  /*--accent: #dd4929;*/
+  /*--highlight: #fd883e;*/
+}
