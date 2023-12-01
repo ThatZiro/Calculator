@@ -52,7 +52,7 @@ h1 {
 }
 
 .buttons button.text-button:hover {
-    background-color: rgba(var(--accent), 0.5)!important;
+    opacity: .5;
 }
 
 .buttons button.equal-button {
@@ -61,7 +61,7 @@ h1 {
 }
 
 .buttons button.equal-button:hover {
-    background-color: rgba(var(--highlight), 0.5)!important;
+    opacity: .5;
 }
 
 
