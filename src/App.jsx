@@ -6,29 +6,26 @@ function App() {
   return (
     <>
       <div className="calculator">
-        <h1>calc</h1>
+        <h1>Calculator</h1>
         
         <div className="total">
           <p>399,981</p>
         </div>
         
-        <div>
-          <div className="row">
-            <button>
-              <p>7</p>
-            </button>
-            <button>
-              <p>8</p>
-            </button>
-            <button>
-              <p>9</p>
-            </button>
-            <button>
-              <p className="text-button">DEL</p>
-            </button>
-          </div>
+        <div className="buttons">
+          <button>
+            <p>7</p>
+          </button>
+          <button>
+            <p>8</p>
+          </button>
+          <button>
+            <p>9</p>
+          </button>
+          <button className="text-button">
+            <p>DEL</p>
+          </button>
           
-          <div className="row">
             <button>
               <p>4</p>
             </button>
@@ -41,9 +38,6 @@ function App() {
             <button>
               <p>+</p>
             </button>
-          </div>
-          
-          <div className="row">
             <button>
               <p>1</p>
             </button>
@@ -56,9 +50,6 @@ function App() {
             <button>
               <p>-</p>
             </button>
-          </div>
-          
-          <div className="row">
             <button>
               <p>.</p>
             </button>
@@ -71,28 +62,12 @@ function App() {
             <button>
               <p>x</p>
             </button>
-          </div>
-          
-          <div className="row">
-            <button>
-              <p className="text-button">RESET</p>
+            <button className="text-button big-button">
+              <p >RESET</p>
             </button>
-            <button>
+            <button className="equal-button big-button">
               <p>=</p>
             </button>
-          </div>
-        </div>
-        
-        <div className="themes">
-          <h2>THEME</h2>
-          <div>
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-          </div>
-          <div className="slider">
-            <div className="selector"></div>
-          </div>
         </div>
       </div>
     </>

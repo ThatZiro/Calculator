@@ -1,5 +1,6 @@
 :root {
-  --background: #FFFAEC;
+  --background-outer: #dadada;
+  --background: #fcfcfc;
   --content: #F1F1F1;
   --text: #111111;
   --accent: #EDB9D1;
@@ -16,4 +17,15 @@
   /*--text: #110f0e;*/
   /*--accent: #dd4929;*/
   /*--highlight: #fd883e;*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--background-outer);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
